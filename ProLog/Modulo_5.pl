@@ -60,4 +60,6 @@ mi_member(5, [5, 6]):
 enesimo(1, [Elemento|_], Elemento).
     enesimo(Posicion, [_|Resto], Elemento):-
     enesimo(PosicionCola, Resto, Elemento),
-    Posicion is PosicionCola + 1.
+    Posicion is PosicionCola + 1.   
+
+padre(homero,bart).
